@@ -1,463 +1,380 @@
 <!DOCTYPE html>
-<html dir="ltr" lang="en-US">
-<head>
+<html>
+	<head>
+		<!-- Basic -->
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">	
+		<title>Demo Medical | Porto - Responsive HTML5 Template</title>	
+		<meta name="keywords" content="HTML5 Template" />
+		<meta name="description" content="Porto - Responsive HTML5 Template">
+		<meta name="author" content="okler.net">
+		<!-- Favicon -->
+		<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+		<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+		<!-- Mobile Metas -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
+		<!-- Web Fonts  -->		<link id="googleFonts" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800%7CShadows+Into+Light&display=swap" rel="stylesheet" type="text/css">
+		<!-- Vendor CSS -->		<link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">		<link rel="stylesheet" href="vendor/fontawesome-free/css/all.min.css">		<link rel="stylesheet" href="vendor/animate/animate.compat.css">		<link rel="stylesheet" href="vendor/simple-line-icons/css/simple-line-icons.min.css">		<link rel="stylesheet" href="vendor/owl.carousel/assets/owl.carousel.min.css">		<link rel="stylesheet" href="vendor/owl.carousel/assets/owl.theme.default.min.css">		<link rel="stylesheet" href="vendor/magnific-popup/magnific-popup.min.css">
+		<!-- Theme CSS -->
+		<link rel="stylesheet" href="css/theme.css">
+		<link rel="stylesheet" href="css/theme-elements.css">
+		<link rel="stylesheet" href="css/theme-blog.css">
+		<link rel="stylesheet" href="css/theme-shop.css">
 
-	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<meta name="author" content="SemiColonWeb" />
+		<!-- Demo CSS -->		<link rel="stylesheet" href="css/demos/demo-medical.css">
+		<!-- Skin CSS -->		<link id="skinCSS" rel="stylesheet" href="css/skins/skin-medical.css">
+		<!-- Theme Custom CSS -->
+		<link rel="stylesheet" href="css/custom.css">
+		<!-- Head Libs -->
+		<script src="vendor/modernizr/modernizr.min.js"></script>
 
-	<!-- Stylesheets
-	============================================= -->
-	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700|Montserrat:400,700|Crete+Round:400i&display=swap" rel="stylesheet" type="text/css" />
-	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
-	<link rel="stylesheet" href="style.css" type="text/css" />
-	<link rel="stylesheet" href="css/swiper.css" type="text/css" />
-
-	<!-- Medical Demo Specific Stylesheet -->
-	<link rel="stylesheet" href="demos/medical/medical.css" type="text/css" />
-	<!-- / -->
-
-	<link rel="stylesheet" href="css/dark.css" type="text/css" />
-	<link rel="stylesheet" href="css/font-icons.css" type="text/css" />
-	<link rel="stylesheet" href="demos/medical/css/medical-icons.css" type="text/css" />
-	<link rel="stylesheet" href="css/animate.css" type="text/css" />
-	<link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
-
-	<link rel="stylesheet" href="demos/medical/fonts.css" type="text/css" />
-
-	<link rel="stylesheet" href="css/custom.css" type="text/css" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-
-	<link rel="stylesheet" href="css/colors.php?color=DE6262" type="text/css" />
-
-	<!-- Document Title
-	============================================= -->
-	<title>Contact - Medical | Canvas</title>
-
-</head>
-
-<body class="stretched" data-loader-html="<div id='css3-spinner-svg-pulse-wrapper'><svg id='css3-spinner-svg-pulse' version='1.2' height='210' width='550' xmlns='https://www.w3.org/2000/svg' viewport='0 0 60 60' xmlns:xlink='https://www.w3.org/1999/xlink'><path id='css3-spinner-pulse' stroke='#DE6262' fill='none' stroke-width='2' stroke-linejoin='round' d='M0,90L250,90Q257,60 262,87T267,95 270,88 273,92t6,35 7,-60T290,127 297,107s2,-11 10,-10 1,1 8,-10T319,95c6,4 8,-6 10,-17s2,10 9,11h210' /></svg></div>">
-
-	<!-- Document Wrapper
-	============================================= -->
-	<div id="wrapper" class="clearfix">
-
-		<!-- Top Bar
-		============================================= -->
-		<div id="top-bar">
-			<div class="container clearfix">
-
-				<div class="row justify-content-between">
-					<div class="col-12 col-md-auto d-none d-md-flex">
-
-						<!-- Top Links
-						============================================= -->
-						<div class="top-links">
-							<ul class="top-links-container">
-								<li class="top-links-item"><a href="#"><i class="icon-time"></i> Timings</a></li>
-								<li class="top-links-item"><a href="#"><i class="icon-phone3"></i> +1-800-9876-221</a></li>
-								<li class="top-links-item"><a href="#" class="nott"><i class="icon-envelope2"></i> medical@canvas.com</a></li>
-							</ul>
-						</div><!-- .top-links end -->
-
-					</div>
-
-					<div class="col-12 col-md-auto">
-
-						<!-- Top Links
-						============================================= -->
-						<div class="top-links">
-							<ul class="top-links-container">
-								<li class="top-links-item"><a href="#">EN</a>
-									<ul class="top-links-sub-menu">
-										<li class="top-links-item"><a href="#"><img src="images/icons/flags/french.png" alt="French"> FR</a></li>
-										<li class="top-links-item"><a href="#"><img src="images/icons/flags/italian.png" alt="Italian"> IT</a></li>
-										<li class="top-links-item"><a href="#"><img src="images/icons/flags/german.png" alt="German"> DE</a></li>
-									</ul>
-								</li>
-								<li class="top-links-item"><a href="demo-medical.html#booking-appointment-form" class="bg-color text-white">Book an Appointment</a></li>
-							</ul>
-						</div><!-- .top-links end -->
-
-					</div>
-				</div>
-
-			</div>
-		</div><!-- #top-bar end -->
-
-		<!-- Header
-		============================================= -->
-		<header id="header" data-menu-padding="28" data-sticky-menu-padding="8">
-			<div id="header-wrap">
-				<div class="container">
-					<div class="header-row">
-
-						<!-- Logo
-						============================================= -->
-						<div id="logo">
-							<a href="index.html" class="standard-logo"><img src="demos/medical/images/logo-medical.png" alt="Canvas Logo"></a>
-							<a href="index.html" class="retina-logo"><img src="demos/medical/images/logo-medical@2x.png" alt="Canvas Logo"></a>
-						</div><!-- #logo end -->
-
-						<div id="primary-menu-trigger">
-							<svg class="svg-trigger" viewBox="0 0 100 100"><path d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20"></path><path d="m 30,50 h 40"></path><path d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20"></path></svg>
-						</div>
-
-						<!-- Primary Navigation
-						============================================= -->
-						<nav class="primary-menu style-3 menu-spacing-margin">
-
-							<ul class="menu-container">
-								<li class="menu-item"><a class="menu-link" href="demo-medical.html"><div>Home</div></a></li>
-								<li class="menu-item"><a class="menu-link" href="demo-medical-about-us.html"><div>About Us</div></a></li>
-								<li class="menu-item"><a class="menu-link" href="demo-medical-departments.html"><div>Departments</div></a></li>
-								<li class="menu-item"><a class="menu-link" href="demo-medical-appointment.html"><div>Appointment</div></a></li>
-								<li class="menu-item"><a class="menu-link" href="demo-medical-doctors.html"><div>Doctors</div></a>
-									<ul class="sub-menu-container">
-										<li class="menu-item"><a class="menu-link" href="demo-medical-doctors-lists.html"><div>2 columns - List style</div></a></li>
-										<li class="menu-item"><a class="menu-link" href="demo-medical-doctors-3.html"><div>3 columns</div></a></li>
-										<li class="menu-item"><a class="menu-link" href="demo-medical-doctors.html"><div>4 columns</div></a></li>
-									</ul>
-								</li>
-								<li class="menu-item"><a class="menu-link" href="demo-medical-blog.html"><div>Blog</div></a></li>
-								<li class="menu-item current"><a class="menu-link" href="demo-medical-contact.html"><div>Contact</div></a></li>
-							</ul>
-
-						</nav><!-- #primary-menu end -->
-
-					</div>
-				</div>
-			</div>
-			<div class="header-wrap-clone"></div>
-		</header><!-- #header end -->
-
-		<!-- Page Title
-		============================================= -->
-		<section id="page-title" class="page-title-parallax page-title-dark page-title-center" style="background: url('demos/medical/images/contact/page-title.jpg') center 90% / cover; padding: 140px 0;" data-bottom-top="background-position:0px -200px;" data-top-bottom="background-position:0px 0px;">
-
-			<div class="container clearfix" style="z-index: 2">
-				<div class="emphasis-title dark mb-0">
-					<span class="before-heading" style="color: #FFF;">medical@canvas.com</span>
-					<h2 class="fw-bold ls0" style="color: #FFF;">+1-800-9876-221</h2>
-				</div>
-				<a href=https://maps.google.com/maps?q=221B+Baker+Street,+London,+United+Kingdom&hl=en&t=v&hnear=221B+Baker+St,+London+NW1+6XE,+United+Kingdom" data-lightbox="iframe"><i class="icon-line-map i-large i-plain dark mx-auto"></i></a>
-				<span class="fw-semibold ls1 text-uppercase" style="color: #EEE;">795 Folsom Ave, Suite 600<br>San Francisco, CA 94107</span>
-			</div>
-
-			<div class="video-overlay" style="background: rgba(222,98,98,0.85); z-index: 1"></div>
-
-		</section><!-- #page-title end -->
-
-		<!-- Content
-		============================================= -->
-		<section id="content">
-			<div class="content-wrap">
-				<div class="container">
-
-					<div class="row">
-						<div class="col-lg-8">
-
-							<h3>Send us an Email</h3>
-
-							<div class="form-widget">
-
-								<div class="form-result"></div>
-
-								<form class="row mb-0" id="template-contactform" name="template-contactform" action="include/form.php" method="post">
-
-									<div class="form-process">
-										<div class="css3-spinner">
-											<div class="css3-spinner-scaler"></div>
-										</div>
+	</head>
+	<body>
+		<div class="body">
+			<header id="header" class="header-effect-shrink" data-plugin-options="{'stickyEnabled': true, 'stickyEffect': 'shrink', 'stickyEnableOnBoxed': true, 'stickyEnableOnMobile': false, 'stickyChangeLogo': true, 'stickyStartAt': 120, 'stickyHeaderContainerHeight': 70}">
+				<div class="header-body border-top-0">
+					<div class="header-top header-top-default header-top-borders border-bottom-0">
+						<div class="container h-100">
+							<div class="header-row h-100">
+								<div class="header-column justify-content-end">
+									<div class="header-row">
+										<nav class="header-nav-top">
+											<ul class="nav nav-pills">
+												<li class="nav-item nav-item-borders py-2 d-none d-sm-inline-flex">
+													<span class="ps-0"><i class="far fa-dot-circle text-4 text-color-primary" style="top: 1px;"></i> 1234 Street Name, City Name</span>
+												</li>
+												<li class="nav-item nav-item-borders py-2">
+													<a href="tel:123-456-7890"><i class="fab fa-whatsapp text-4 text-color-primary" style="top: 0;"></i> 123-456-7890</a>
+												</li>
+												<li class="nav-item nav-item-borders py-2 pe-1 d-none d-md-inline-flex">
+													<a href="mailto:mail@domain.com"><i class="far fa-envelope text-4 text-color-primary" style="top: 1px;"></i> mail@domain.com</a>
+												</li>
+											</ul>
+										</nav>
 									</div>
-
-									<div class="col-md-4 form-group">
-										<label for="template-contactform-name">Name <small>*</small></label>
-										<input type="text" id="template-contactform-name" name="template-contactform-name" value="" class="sm-form-control required" />
-									</div>
-
-									<div class="col-md-4 form-group">
-										<label for="template-contactform-email">Email <small>*</small></label>
-										<input type="email" id="template-contactform-email" name="template-contactform-email" value="" class="required email sm-form-control" />
-									</div>
-
-									<div class="col-md-4 form-group">
-										<label for="template-contactform-phone">Phone</label>
-										<input type="text" id="template-contactform-phone" name="template-contactform-phone" value="" class="sm-form-control" />
-									</div>
-
-									<div class="w-100"></div>
-
-									<div class="col-md-8 form-group">
-										<label for="template-contactform-subject">Subject <small>*</small></label>
-										<input type="text" id="template-contactform-subject" name="subject" value="" class="required sm-form-control" />
-									</div>
-
-									<div class="col-md-4 form-group">
-										<label for="template-contactform-service">Services</label>
-										<select id="template-contactform-service" name="template-contactform-service" class="sm-form-control">
-											<option value="">-- Select One --</option>
-											<option value="Wordpress">Wordpress</option>
-											<option value="PHP / MySQL">PHP / MySQL</option>
-											<option value="HTML5 / CSS3">HTML5 / CSS3</option>
-											<option value="Graphic Design">Graphic Design</option>
-										</select>
-									</div>
-
-									<div class="w-100"></div>
-
-									<div class="col-12 form-group">
-										<label for="template-contactform-message">Message <small>*</small></label>
-										<textarea class="required sm-form-control" id="template-contactform-message" name="template-contactform-message" rows="6" cols="30"></textarea>
-									</div>
-
-									<div class="col-12 form-group d-none">
-										<input type="text" id="template-contactform-botcheck" name="template-contactform-botcheck" value="" class="sm-form-control" />
-									</div>
-
-									<div class="col-12 form-group">
-										<button class="button button-3d m-0" type="submit" id="template-contactform-submit" name="template-contactform-submit" value="submit">Send Message</button>
-									</div>
-
-									<input type="hidden" name="prefix" value="template-contactform-">
-
-								</form>
+								</div>
 							</div>
-
 						</div>
-
+					</div>
+					<div class="header-container container">
+						<div class="header-row">
+							<div class="header-column">
+								<div class="header-row">
+									<div class="header-logo">
+										<a href="demo-medical.html">
+											<img alt="Porto" width="143" height="40" src="img/demos/medical/logo-medical.png">
+										</a>
+									</div>
+								</div>
+							</div>
+							<div class="header-column justify-content-end">
+								<div class="header-row">
+									<div class="header-nav order-2 order-lg-1">
+										<div class="header-nav-main header-nav-main-square header-nav-main-effect-1 header-nav-main-sub-effect-1">
+											<nav class="collapse">
+												<ul class="nav nav-pills" id="mainNav">
+													<li class="dropdown-full-color dropdown-secondary">
+														<a class="nav-link" href="demo-medical.html">
+															Home
+														</a>
+													</li>
+													<li class="dropdown-full-color dropdown-secondary">
+														<a class="nav-link" href="demo-medical-about-us.html">
+															About Us
+														</a>
+													</li>
+													<li class="dropdown dropdown-full-color dropdown-secondary">
+														<a class="nav-link dropdown-toggle" class="dropdown-toggle" href="demo-medical-departments.html">
+															Departments
+														</a>
+														<ul class="dropdown-menu">
+															<li><a class="dropdown-item" href="demo-medical-departments-detail.html">Cardiology</a></li>
+															<li><a class="dropdown-item" href="demo-medical-departments-detail.html">Gastroenterology</a></li>
+															<li><a class="dropdown-item" href="demo-medical-departments-detail.html">Pulmonology</a></li>
+															<li><a class="dropdown-item" href="demo-medical-departments-detail.html">Dental</a></li>
+															<li><a class="dropdown-item" href="demo-medical-departments-detail.html">Gynecology</a></li>
+															<li><a class="dropdown-item" href="demo-medical-departments-detail.html">Hepatology</a></li>
+														</ul>
+													</li>
+													<li class="dropdown-full-color dropdown-secondary">
+														<a class="nav-link" href="demo-medical-doctors.html">
+															Doctors
+														</a>
+													</li>
+													<li class="dropdown-full-color dropdown-secondary">
+														<a class="nav-link" href="demo-medical-resources.html">
+															Resources
+														</a>
+													</li>
+													<li class="dropdown-full-color dropdown-secondary">
+														<a class="nav-link" href="demo-medical-insurance.html">
+															Insurance
+														</a>
+													</li>
+													<li class="dropdown-full-color dropdown-secondary">
+														<a class="nav-link active" href="demo-medical-contact.html">
+															Contact
+														</a>
+													</li>
+												</ul>
+											</nav>
+										</div>
+										<button class="btn header-btn-collapse-nav" data-bs-toggle="collapse" data-bs-target=".header-nav-main nav">
+											<i class="fas fa-bars"></i>
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</header>
+			<div role="main" class="main">
+				<section class="page-header page-header-modern bg-color-primary page-header-md">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-8 order-2 order-md-1 align-self-center p-static">
+								<h1>Contact</h1>
+								<span class="sub-title">Send us a message or call us for more information</span>
+							</div>
+							<div class="col-md-4 order-1 order-md-2 align-self-center">
+								<ul class="breadcrumb d-block text-md-end breadcrumb-light">
+									<li><a href="demo-medical.html">Home</a></li>
+									<li class="active">Contact</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</section>
+				<div class="container">
+					<div class="row mt-5">
 						<div class="col-lg-4">
-							<div class="opening-table" style="background-color: #f5f5f5">
-								<div class="heading-block bottommargin-sm border-bottom-0">
-									<h4>Opening Hours</h4>
-									<span>Lorem ipsum dolor sit amet, consecte adipisicing elit molestiae non.</span>
+							<div class="feature-box feature-box-style-2">
+								<div class="feature-box-icon pt-0">
+									<i class="icon-location-pin icons"></i>
 								</div>
-								<div class="time-table-wrap clearfix">
-									<div class="row time-table">
-										<h5 class="col-lg-5">Monday</h5>
-										<span class="col-lg-7">8:00am - 11:00pm</span>
-									</div>
-									<div class="row time-table">
-										<h5 class="col-lg-5">Tuesday</h5>
-										<span class="col-lg-7">8:00am - 11:00pm</span>
-									</div>
-									<div class="row time-table">
-										<h5 class="col-lg-5">Wednesday</h5>
-										<span class="col-lg-7">8:00am - 11:00pm</span>
-									</div>
-									<div class="row time-table">
-										<h5 class="col-lg-5">Thursday</h5>
-										<span class="col-lg-7">8:00am - 11:00pm</span>
-									</div>
-									<div class="row time-table">
-										<h5 class="col-lg-5">Friday</h5>
-										<span class="col-lg-7">8:00am - 11:00pm</span>
-									</div>
-									<div class="row time-table">
-										<h5 class="col-lg-5">Saturday</h5>
-										<span class="col-lg-7">8:00am - 1:30pm</span>
-									</div>
-									<div class="row time-table">
-										<h5 class="col-lg-5">Sunday</h5>
-										<span class="col-lg-7 color fw-semibold">Closed</span>
-									</div>
+								<div class="feature-box-info">
+									<h4 class="mb-2">Address</h4>
+									<p class="text-4">
+										123 Porto Blvd, Suite 100<br>
+										New York, NY
+									</p>
 								</div>
 							</div>
 						</div>
+						<div class="col-lg-4">
+							<div class="feature-box feature-box-style-2">
+								<div class="feature-box-icon pt-0">
+									<i class="icon-phone icons"></i>
+								</div>
+								<div class="feature-box-info">
+									<h4 class="mb-2">Phone</h4>
+									<p class="text-4">
+										123-456-7890 <br>
+										123-456-7891
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4">
+							<div class="feature-box feature-box-style-2">
+								<div class="feature-box-icon pt-0">
+									<i class="icon-envelope icons"></i>
+								</div>
+								<div class="feature-box-info">
+									<h4 class="mb-2">Email</h4>
+									<p class="text-4">
+										<a href="mailto:mail@example.com" class="text-decoration-none">mail@example.com</a><br>
+										<a href="mailto:mail2@example.com" class="text-decoration-none">mail2@example.com</a>
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<hr class="solid">
+					<div class="row pt-4 mb-4">
+						<div class="col-lg-6">
+							<div id="googlemaps" class="google-map m-0 mb-5"></div>
+						</div>
+						<div class="col-lg-6">
+							<h4 class="font-weight-semibold mb-4">Send a Message to Us</h4>
+							<form class="contact-form" action="php/contact-form.php" method="POST">
+								<div class="contact-form-success alert alert-success d-none mt-4">
+									<strong>Success!</strong> Your message has been sent to us.
+								</div>
+								<div class="contact-form-error alert alert-danger d-none mt-4">
+									<strong>Error!</strong> There was an error sending your message.
+									<span class="mail-error-message text-1 d-block"></span>
+								</div>
+								<div class="row">
+									<div class="form-group col">
+										<input type="text" placeholder="Your Name" value="" data-msg-required="Please enter your name." maxlength="100" class="form-control" name="name" required>
+									</div>
+								</div>
+								<div class="row">
+									<div class="form-group col">
+										<input type="email" placeholder="Your E-mail" value="" data-msg-required="Please enter your email address." data-msg-email="Please enter a valid email address." maxlength="100" class="form-control" name="email" required>
+									</div>
+								</div>
+								<div class="row">
+									<div class="form-group col">
+										<input type="text" placeholder="Subject" value="" data-msg-required="Please enter the subject." maxlength="100" class="form-control" name="subject" required>
+									</div>
+								</div>
+								<div class="row">
+									<div class="form-group col">
+										<textarea maxlength="5000" placeholder="Message" data-msg-required="Please enter your message." rows="5" class="form-control" name="message" required></textarea>
+									</div>
+								</div>
+								<div class="row">
+									<div class="form-group col">
+										<input type="submit" value="Send Message" class="btn btn-primary btn-lg mb-5" data-loading-text="Loading...">
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+			<footer id="footer" class="m-0">
+				<div class="container">
+					<div class="row pt-5 pb-4">
+						<div class="col-md-4 col-lg-3 mb-2">
+							<h4 class="mb-4">Location</h4>
+							<p>
+								Porto Medical<br>
+								123 Porto Blvd, Suite 100<br>
+								New York, NY<br>
+								Phone : 123-456-7890
+							</p>
+						</div>
+						<div class="col-md-4 col-lg-3">
+							<h4 class="mb-4">Opening Hours</h4>
+							<div class="info custom-info">
+								<span>Mon-Fri</span>
+								<span>8:30 am to 5:00 pm</span>
+							</div>
+							<div class="info custom-info">
+								<span>Saturday</span>
+								<span>9:30 am to 1:00 pm</span>
+							</div>
+							<div class="info custom-info">
+								<span>Sunday</span>
+								<span>Closed</span>
+							</div>
+						</div>
+						<div class="col-md-4 col-lg-3">
+							<div class="contact-details">
+								<h4 class="mb-4">Emergency Cases</h4>
+								<a class="text-decoration-none" href="tel:1234567890">
+									<strong class="font-weight-light">(800)123-4567</strong>
+								</a>
+							</div>
+						</div>
+						<div class="col-lg-2 text-md-center text-lg-start ms-lg-auto">
+							<h4 class="mb-4">Social Media</h4>
+							<ul class="social-icons">
+								<li class="social-icons-facebook">
+									<a href="http://www.facebook.com/" target="_blank" title="Facebook">
+										<i class="fab fa-facebook-f"></i>
+									</a>
+								</li>
+								<li class="social-icons-twitter">
+									<a href="http://www.twitter.com/" target="_blank" title="Twitter">
+										<i class="fab fa-twitter"></i>
+									</a>
+								</li>
+								<li class="social-icons-linkedin">
+									<a href="http://www.linkedin.com/" target="_blank" title="Linkedin">
+										<i class="fab fa-linkedin-in"></i>
+									</a>
+								</li>
+							</ul>
+						</div>
 					</div>
-
 				</div>
-
-				<div class="clear"></div>
-
-				<div class="row topmargin-lg footer-stick align-items-stretch">
-
-					<div class="col-lg-4 dark col-padding overflow-hidden" style="background-color: #1abc9c;">
-						<div data-animate="fadeInLeft">
-							<a href="#"><h3 class="text-uppercase" style="font-weight: 600;">Health Insurance</h3></a>
-							<p style="line-height: 1.8;">Transform, agency working families thinkers who make change happen communities.&rarr;</p>
+				<div class="footer-copyright pt-3 pb-3">
+					<div class="container">
+						<div class="row">
+							<div class="col-lg-12 text-center m-0">
+								<p>© Copyright 2021. All Rights Reserved.</p>
+							</div>
 						</div>
-						<i class="icon-medical-i-cardiology bgicon"></i>
 					</div>
-
-					<div class="col-lg-4 dark col-padding overflow-hidden" style="background-color: #34495e;">
-						<div data-animate="fadeInLeft" data-delay="200">
-							<a href="#"><h3 class="text-uppercase" style="font-weight: 600;">Medical Records</h3></a>
-							<p style="line-height: 1.8;">Frontline respond, visionary collaborative cities advancement overcome injustice.&rarr;</p>
-						</div>
-						<i class="icon-medical-i-administration bgicon"></i>
-					</div>
-
-					<div class="col-lg-4 dark col-padding overflow-hidden" style="background-color: #DE6262;">
-						<div data-animate="fadeInLeft" data-delay="400">
-							<a href="#"><h3 class="text-uppercase" style="font-weight: 600;">Online Bill Pay</h3></a>
-							<p style="line-height: 1.8;">Sustainability involvement fundraising campaign connect carbon rights, collaborative cities.&rarr;</p>
-						</div>
-						<i class="icon-medical-i-billing bgicon"></i>
-					</div>
-
-					<div class="clear"></div>
-
 				</div>
-			</div>
-		</section><!-- #content end -->
+			</footer>
+		</div>
 
-		<!-- Footer
-		============================================= -->
-		<footer id="footer" style="background-color: #F5F5F5; border-top: 2px solid rgba(0,0,0,0.06);">
-			<div class="container" style="border-bottom: 1px solid rgba(0,0,0,0.06);">
+		<!-- Vendor -->		<script src="vendor/jquery/jquery.min.js"></script>		<script src="vendor/jquery.appear/jquery.appear.min.js"></script>		<script src="vendor/jquery.easing/jquery.easing.min.js"></script>		<script src="vendor/jquery.cookie/jquery.cookie.min.js"></script>		<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>		<script src="vendor/jquery.validation/jquery.validate.min.js"></script>		<script src="vendor/jquery.easy-pie-chart/jquery.easypiechart.min.js"></script>		<script src="vendor/jquery.gmap/jquery.gmap.min.js"></script>		<script src="vendor/lazysizes/lazysizes.min.js"></script>		<script src="vendor/isotope/jquery.isotope.min.js"></script>		<script src="vendor/owl.carousel/owl.carousel.min.js"></script>		<script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>		<script src="vendor/vide/jquery.vide.min.js"></script>		<script src="vendor/vivus/vivus.min.js"></script>
+		<!-- Theme Base, Components and Settings -->
+		<script src="js/theme.js"></script>
 
-				<!-- Footer Widgets
-				============================================= -->
-				<div class="footer-widgets-wrap">
+		<!-- Current Page Vendor and Views -->
+		<script src="js/views/view.contact.js"></script>
+		<!-- Demo -->
+		<script src="js/demos/demo-medical.js"></script>
 
-					<div class="row gutter-50 col-mb-50">
-						<div class="col-md-8">
+		<!-- Theme Custom -->		<script src="js/custom.js"></script>
+		<!-- Theme Initialization Files -->
+		<script src="js/theme.init.js"></script>
 
-							<div class="widget clearfix">
-
-								<div class="widget-subscribe-form-result"></div>
-								<form id="widget-subscribe-form" action="include/subscribe.php" method="post" class="mb-0 row clearfix">
-									<div class="col-lg-9">
-										<input type="email" id="widget-subscribe-form-email" name="widget-subscribe-form-email" class="sm-form-control required email" placeholder="Enter your Email to Subscribe to our Newsletter">
-									</div>
-									<div class="col-lg-3">
-										<button class="button button-rounded m-0 center w-100" type="submit">Subscribe</button>
-									</div>
-								</form>
-
-								<div class="line line-sm"></div>
-
-								<div class="row col-mb-30">
-									<div class="col-lg-3 col-6 widget_links">
-										<ul>
-											<li><a href="#">Home</a></li>
-											<li><a href="#">About</a></li>
-											<li><a href="#">FAQs</a></li>
-											<li><a href="#">Support</a></li>
-											<li><a href="#">Contact</a></li>
-										</ul>
-									</div>
-
-									<div class="col-lg-3 col-6 widget_links">
-										<ul>
-											<li><a href="#">Shop</a></li>
-											<li><a href="#">Portfolio</a></li>
-											<li><a href="#">Blog</a></li>
-											<li><a href="#">Events</a></li>
-											<li><a href="#">Forums</a></li>
-										</ul>
-									</div>
-
-									<div class="col-lg-3 col-6 widget_links">
-										<ul>
-											<li><a href="#">Corporate</a></li>
-											<li><a href="#">Agency</a></li>
-											<li><a href="#">eCommerce</a></li>
-											<li><a href="#">Personal</a></li>
-											<li><a href="#">One Page</a></li>
-										</ul>
-									</div>
-
-									<div class="col-lg-3 col-6 widget_links">
-										<ul>
-											<li><a href="#">Restaurant</a></li>
-											<li><a href="#">Wedding</a></li>
-											<li><a href="#">App Showcase</a></li>
-											<li><a href="#">Magazine</a></li>
-											<li><a href="#">Landing Page</a></li>
-										</ul>
-									</div>
-								</div>
-
-							</div>
-
-						</div>
-
-						<div class="col-md-4">
-
-							<div class="widget">
-
-								<div class="row col-mb-30">
-									<div class="col-lg-12">
-										<div class="footer-big-contacts">
-											<span>Call Us:</span>
-											(1) 22 55412474
-										</div>
-									</div>
-
-									<div class="col-lg-12">
-										<div class="footer-big-contacts">
-											<span>Send an Email:</span>
-											info@canvas.com
-										</div>
-									</div>
-								</div>
-
-							</div>
-
-							<div class="widget subscribe-widget clearfix">
-
-								<div class="row col-mb-30">
-									<div class="col-sm-6 col-md-12 col-lg-6 clearfix">
-										<a href="#" class="social-icon si-dark si-colored si-facebook mb-0" style="margin-right: 10px;">
-											<i class="icon-facebook"></i>
-											<i class="icon-facebook"></i>
-										</a>
-										<a href="#"><small style="display: block; margin-top: 3px;"><strong>Like us</strong><br>on Facebook</small></a>
-									</div>
-									<div class="col-sm-6 col-md-12 col-lg-6 clearfix">
-										<a href="#" class="social-icon si-dark si-colored si-rss mb-0" style="margin-right: 10px;">
-											<i class="icon-rss"></i>
-											<i class="icon-rss"></i>
-										</a>
-										<a href="#"><small style="display: block; margin-top: 3px;"><strong>Subscribe</strong><br>to RSS Feeds</small></a>
-									</div>
-								</div>
-
-							</div>
-
-						</div>
-					</div>
-
-				</div><!-- .footer-widgets-wrap end -->
-			</div>
-
-			<!-- Copyrights
-			============================================= -->
-			<div id="copyrights" class="bg-transparent">
-				<div class="container clearfix">
-
-					<div class="row col-mb-30">
-						<div class="col-md-6 text-center text-md-start">
-							Copyrights &copy; 2020 All Rights Reserved by Canvas Inc.<br>
-							<div class="copyright-links"><a href="#">Terms of Use</a> / <a href="#">Privacy Policy</a></div>
-						</div>
-
-						<div class="col-md-6 text-center text-md-end">
-							<div class="copyrights-menu copyright-links clearfix">
-								<a href="#">Home</a>/<a href="#">About Us</a>/<a href="#">Team</a>/<a href="#">Clients</a>/<a href="#">FAQs</a>/<a href="#">Contact</a>
-							</div>
-						</div>
-					</div>
-
-				</div>
-			</div><!-- #copyrights end -->
-		</footer><!-- #footer end -->
-
-	</div><!-- #wrapper end -->
-
-	<!-- Go To Top
-	============================================= -->
-	<div id="gotoTop" class="icon-angle-up"></div>
-
-	<!-- JavaScripts
-	============================================= -->
-	<script src="js/jquery.js"></script>
-	<script src="js/plugins.min.js"></script>
-
-	<!-- Footer Scripts
-	============================================= -->
-	<script src="js/functions.js"></script>
-
-</body>
+	<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY"></script>
+		<script>
+			/*
+			Map Settings
+				Find the Latitude and Longitude of your address:
+					- https://www.latlong.net/
+					- http://www.findlatitudeandlongitude.com/find-address-from-latitude-and-longitude/
+			*/
+			function initializeGoogleMaps() {
+				// Map Markers
+				var mapMarkers = [{
+					address: "New York, NY 10017",
+					html: "<strong>Porto Medical</strong><br>New York, NY 10017",
+					icon: {
+						image: "img/pin.png",
+						iconsize: [26, 46],
+						iconanchor: [12, 46]
+					},
+					popup: true
+				}];
+				// Map Initial Location
+				var initLatitude = 40.75198;
+				var initLongitude = -73.96978;
+				// Map Extended Settings
+				var mapSettings = {
+					controls: {
+						draggable: (($.browser.mobile) ? false : true),
+						panControl: true,
+						zoomControl: true,
+						mapTypeControl: true,
+						scaleControl: true,
+						streetViewControl: true,
+						overviewMapControl: true
+					},
+					scrollwheel: false,
+					markers: mapMarkers,
+					latitude: initLatitude,
+					longitude: initLongitude,
+					zoom: 16
+				};
+				var map = $('#googlemaps').gMap(mapSettings),
+					mapRef = $('#googlemaps').data('gMap.reference');
+				// Styles from https://snazzymaps.com/
+				var styles = [{"featureType":"water","elementType":"geometry","stylers":[{"color":"#e9e9e9"},{"lightness":17}]},{"featureType":"landscape","elementType":"geometry","stylers":[{"color":"#f5f5f5"},{"lightness":20}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#ffffff"},{"lightness":17}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"color":"#ffffff"},{"lightness":29},{"weight":0.2}]},{"featureType":"road.arterial","elementType":"geometry","stylers":[{"color":"#ffffff"},{"lightness":18}]},{"featureType":"road.local","elementType":"geometry","stylers":[{"color":"#ffffff"},{"lightness":16}]},{"featureType":"poi","elementType":"geometry","stylers":[{"color":"#f5f5f5"},{"lightness":21}]},{"featureType":"poi.park","elementType":"geometry","stylers":[{"color":"#dedede"},{"lightness":21}]},{"elementType":"labels.text.stroke","stylers":[{"visibility":"on"},{"color":"#ffffff"},{"lightness":16}]},{"elementType":"labels.text.fill","stylers":[{"saturation":36},{"color":"#333333"},{"lightness":40}]},{"elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"transit","elementType":"geometry","stylers":[{"color":"#f2f2f2"},{"lightness":19}]},{"featureType":"administrative","elementType":"geometry.fill","stylers":[{"color":"#fefefe"},{"lightness":20}]},{"featureType":"administrative","elementType":"geometry.stroke","stylers":[{"color":"#fefefe"},{"lightness":17},{"weight":1.2}]}];
+				var styledMap = new google.maps.StyledMapType(styles, {
+					name: 'Styled Map'
+				});
+				mapRef.mapTypes.set('map_style', styledMap);
+				mapRef.setMapTypeId('map_style');
+			}
+			// Initialize Google Maps when element enter on browser view
+			theme.fn.intObs( '.google-map', 'initializeGoogleMaps()', {} );
+			// Map text-center At
+			var mapCenterAt = function(options, e) {
+				e.preventDefault();
+				$('#googlemaps').gMap("centerAt", options);
+			}
+		</script>
+	</body>
 </html>

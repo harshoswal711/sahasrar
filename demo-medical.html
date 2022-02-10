@@ -1,728 +1,646 @@
 <!DOCTYPE html>
-<html dir="ltr" lang="en-US">
-<head>
+<html>
+	<head>
+		<!-- Basic -->
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">	
+		<title>Demo Medical | Porto - Responsive HTML5 Template</title>	
+		<meta name="keywords" content="HTML5 Template" />
+		<meta name="description" content="Porto - Responsive HTML5 Template">
+		<meta name="author" content="okler.net">
+		<!-- Favicon -->
+		<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+		<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+		<!-- Mobile Metas -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
+		<!-- Web Fonts  -->		<link id="googleFonts" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800%7CShadows+Into+Light&display=swap" rel="stylesheet" type="text/css">
+		<!-- Vendor CSS -->		<link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">		<link rel="stylesheet" href="vendor/fontawesome-free/css/all.min.css">		<link rel="stylesheet" href="vendor/animate/animate.compat.css">		<link rel="stylesheet" href="vendor/simple-line-icons/css/simple-line-icons.min.css">		<link rel="stylesheet" href="vendor/owl.carousel/assets/owl.carousel.min.css">		<link rel="stylesheet" href="vendor/owl.carousel/assets/owl.theme.default.min.css">		<link rel="stylesheet" href="vendor/magnific-popup/magnific-popup.min.css">
+		<!-- Theme CSS -->
+		<link rel="stylesheet" href="css/theme.css">
+		<link rel="stylesheet" href="css/theme-elements.css">
+		<link rel="stylesheet" href="css/theme-blog.css">
+		<link rel="stylesheet" href="css/theme-shop.css">
 
-	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<meta name="author" content="SemiColonWeb" />
+		<!-- Demo CSS -->		<link rel="stylesheet" href="css/demos/demo-medical.css">
+		<!-- Skin CSS -->		<link id="skinCSS" rel="stylesheet" href="css/skins/skin-medical.css">
+		<!-- Theme Custom CSS -->
+		<link rel="stylesheet" href="css/custom.css">
+		<!-- Head Libs -->
+		<script src="vendor/modernizr/modernizr.min.js"></script>
 
-	<!-- Stylesheets
-	============================================= -->
-	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700|Montserrat:400,700|Crete+Round:400i&display=swap" rel="stylesheet" type="text/css" />
-	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
-	<link rel="stylesheet" href="style.css" type="text/css" />
-	<link rel="stylesheet" href="css/swiper.css" type="text/css" />
-
-	<!-- Medical Demo Specific Stylesheet -->
-	<link rel="stylesheet" href="demos/medical/medical.css" type="text/css" />
-	<!-- / -->
-
-	<link rel="stylesheet" href="css/dark.css" type="text/css" />
-	<link rel="stylesheet" href="css/font-icons.css" type="text/css" />
-	<link rel="stylesheet" href="demos/medical/css/medical-icons.css" type="text/css" />
-	<link rel="stylesheet" href="css/animate.css" type="text/css" />
-	<link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
-
-	<link rel="stylesheet" href="demos/medical/fonts.css" type="text/css" />
-
-	<link rel="stylesheet" href="css/custom.css" type="text/css" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-
-	<link rel="stylesheet" href="css/colors.php?color=DE6262" type="text/css" />
-
-	<!-- Document Title
-	============================================= -->
-	<title>Medical Demo | Canvas</title>
-
-</head>
-
-<body class="stretched page-transition" data-loader-html="<div id='css3-spinner-svg-pulse-wrapper'><svg id='css3-spinner-svg-pulse' version='1.2' height='210' width='550' xmlns='https://www.w3.org/2000/svg' viewport='0 0 60 60' xmlns:xlink='https://www.w3.org/1999/xlink'><path id='css3-spinner-pulse' stroke='#DE6262' fill='none' stroke-width='2' stroke-linejoin='round' d='M0,90L250,90Q257,60 262,87T267,95 270,88 273,92t6,35 7,-60T290,127 297,107s2,-11 10,-10 1,1 8,-10T319,95c6,4 8,-6 10,-17s2,10 9,11h210' /></svg></div>">
-
-	<!-- Document Wrapper
-	============================================= -->
-	<div id="wrapper" class="clearfix">
-
-		<!-- Top Bar
-		============================================= -->
-		<div id="top-bar">
-			<div class="container clearfix">
-
-				<div class="row justify-content-between">
-					<div class="col-12 col-md-auto d-none d-md-flex">
-
-						<!-- Top Links
-						============================================= -->
-						<div class="top-links">
-							<ul class="top-links-container">
-								<li class="top-links-item"><a href="#"><i class="icon-time"></i> Timings</a></li>
-								<li class="top-links-item"><a href="#"><i class="icon-phone3"></i> +1-800-9876-221</a></li>
-								<li class="top-links-item"><a href="#" class="nott"><i class="icon-envelope2"></i> medical@canvas.com</a></li>
-							</ul>
-						</div><!-- .top-links end -->
-
-					</div>
-
-					<div class="col-12 col-md-auto">
-
-						<!-- Top Links
-						============================================= -->
-						<div class="top-links">
-							<ul class="top-links-container">
-								<li class="top-links-item"><a href="#">EN</a>
-									<ul class="top-links-sub-menu">
-										<li class="top-links-item"><a href="#"><img src="images/icons/flags/french.png" alt="French"> FR</a></li>
-										<li class="top-links-item"><a href="#"><img src="images/icons/flags/italian.png" alt="Italian"> IT</a></li>
-										<li class="top-links-item"><a href="#"><img src="images/icons/flags/german.png" alt="German"> DE</a></li>
-									</ul>
-								</li>
-								<li class="top-links-item"><a href="demo-medical.html#booking-appointment-form" class="bg-color text-white">Book an Appointment</a></li>
-							</ul>
-						</div><!-- .top-links end -->
-
-					</div>
-				</div>
-
-			</div>
-		</div><!-- #top-bar end -->
-
-		<!-- Header
-		============================================= -->
-		<header id="header" data-menu-padding="28" data-sticky-menu-padding="8">
-			<div id="header-wrap">
-				<div class="container">
-					<div class="header-row">
-
-						<!-- Logo
-						============================================= -->
-						<div id="logo">
-							<a href="index.html" class="standard-logo"><img src="demos/medical/images/logo-medical.png" alt="Canvas Logo"></a>
-							<a href="index.html" class="retina-logo"><img src="demos/medical/images/logo-medical@2x.png" alt="Canvas Logo"></a>
-						</div><!-- #logo end -->
-
-						<div id="primary-menu-trigger">
-							<svg class="svg-trigger" viewBox="0 0 100 100"><path d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20"></path><path d="m 30,50 h 40"></path><path d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20"></path></svg>
-						</div>
-
-						<!-- Primary Navigation
-						============================================= -->
-						<nav class="primary-menu style-3 menu-spacing-margin">
-
-							<ul class="menu-container">
-								<li class="menu-item current"><a class="menu-link" href="demo-medical.html"><div>Home</div></a></li>
-								<li class="menu-item"><a class="menu-link" href="demo-medical-about-us.html"><div>About Us</div></a></li>
-								<li class="menu-item"><a class="menu-link" href="demo-medical-departments.html"><div>Departments</div></a></li>
-								<li class="menu-item"><a class="menu-link" href="demo-medical-appointment.html"><div>Appointment</div></a></li>
-								<li class="menu-item"><a class="menu-link" href="demo-medical-doctors.html"><div>Doctors</div></a>
-									<ul class="sub-menu-container">
-										<li class="menu-item"><a class="menu-link" href="demo-medical-doctors-lists.html"><div>2 columns - List style</div></a></li>
-										<li class="menu-item"><a class="menu-link" href="demo-medical-doctors-3.html"><div>3 columns</div></a></li>
-										<li class="menu-item"><a class="menu-link" href="demo-medical-doctors.html"><div>4 columns</div></a></li>
-									</ul>
-								</li>
-								<li class="menu-item"><a class="menu-link" href="demo-medical-blog.html"><div>Blog</div></a></li>
-								<li class="menu-item"><a class="menu-link" href="demo-medical-contact.html"><div>Contact</div></a></li>
-							</ul>
-
-						</nav><!-- #primary-menu end -->
-
-					</div>
-				</div>
-			</div>
-			<div class="header-wrap-clone"></div>
-		</header><!-- #header end -->
-
-		<!-- Slider
-		============================================= -->
-		<section id="slider" class="slider-element swiper_wrapper min-vh-50 min-vh-md-100" data-loop="true" data-autoplay="5000">
-			<div class="slider-inner">
-
-				<div class="swiper-container swiper-parent">
-					<div class="swiper-wrapper">
-						<div class="swiper-slide">
-							<div class="container">
-								<div class="slider-caption slider-caption-right" style="max-width: 700px;">
-									<div>
-										<h2 data-animate="flipInX">Team of Experts<span>.</span></h2>
-										<p class="d-none d-sm-block" data-animate="flipInX" data-delay="500">Our Team of Doctors are specialized in Various Disciplines to make sure you get the Best Treatment.</p>
+	</head>
+	<body>
+		<div class="body">
+			<header id="header" class="header-effect-shrink" data-plugin-options="{'stickyEnabled': true, 'stickyEffect': 'shrink', 'stickyEnableOnBoxed': true, 'stickyEnableOnMobile': false, 'stickyChangeLogo': true, 'stickyStartAt': 120, 'stickyHeaderContainerHeight': 70}">
+				<div class="header-body border-top-0">
+					<div class="header-top header-top-default header-top-borders border-bottom-0">
+						<div class="container h-100">
+							<div class="header-row h-100">
+								<div class="header-column justify-content-end">
+									<div class="header-row">
+										<nav class="header-nav-top">
+											<ul class="nav nav-pills">
+												<li class="nav-item nav-item-borders py-2 d-none d-sm-inline-flex">
+													<span class="ps-0"><i class="far fa-dot-circle text-4 text-color-primary" style="top: 1px;"></i> 1234 Street Name, City Name</span>
+												</li>
+												<li class="nav-item nav-item-borders py-2">
+													<a href="tel:123-456-7890"><i class="fab fa-whatsapp text-4 text-color-primary" style="top: 0;"></i> 123-456-7890</a>
+												</li>
+												<li class="nav-item nav-item-borders py-2 pe-1 d-none d-md-inline-flex">
+													<a href="mailto:mail@domain.com"><i class="far fa-envelope text-4 text-color-primary" style="top: 1px;"></i> mail@domain.com</a>
+												</li>
+											</ul>
+										</nav>
 									</div>
 								</div>
 							</div>
-							<div class="swiper-slide-bg" style="background-image: url('demos/medical/images/slider/1.jpg');"></div>
 						</div>
-						<div class="swiper-slide">
-							<div class="container">
-								<div class="slider-caption">
-									<div>
-										<h2 data-animate="zoomIn">Heart<span>Beat</span>.</h2>
-										<p class="d-none d-sm-block" data-animate="zoomIn" data-delay="500">Care for your Loved Ones from the Experts in the Medical &amp; Hospitality Industry.</p>
+					</div>
+					<div class="header-container container">
+						<div class="header-row">
+							<div class="header-column">
+								<div class="header-row">
+									<div class="header-logo">
+										<a href="demo-medical.html">
+											<img alt="Porto" width="143" height="40" src="img/demos/medical/logo-medical.png">
+										</a>
 									</div>
 								</div>
 							</div>
-							<div class="swiper-slide-bg" style="background-image: url('demos/medical/images/slider/2.jpg');"></div>
-						</div>
-					</div>
-
-				</div>
-
-			</div>
-		</section><!-- #slider end -->
-
-		<!-- Content
-		============================================= -->
-		<section id="content">
-			<div class="content-wrap">
-				<div class="container clearfix">
-
-					<div class="row col-mb-50 mb-0">
-						<div class="col-sm-6 col-md-4">
-							<div class="feature-box fbox-plain">
-								<div class="fbox-icon" data-animate="bounceIn">
-									<a href="#"><i class="icon-medical-i-cardiology"></i></a>
-								</div>
-								<div class="fbox-content">
-									<h3>Intensive Care</h3>
-									<p>Powerful Layout with Responsive functionality that can be adapted to any screen size. Resize browser to view.</p>
-								</div>
-							</div>
-						</div>
-
-						<div class="col-sm-6 col-md-4">
-							<div class="feature-box fbox-plain">
-								<div class="fbox-icon" data-animate="bounceIn" data-delay="200">
-									<a href="#"><i class="icon-medical-i-social-services"></i></a>
-								</div>
-								<div class="fbox-content">
-									<h3>Family Planning</h3>
-									<p>Looks beautiful &amp; ultra-sharp on Retina Screen Displays. Retina Icons, Fonts &amp; all others graphics are optimized.</p>
-								</div>
-							</div>
-						</div>
-
-						<div class="col-sm-6 col-md-4">
-							<div class="feature-box fbox-plain">
-								<div class="fbox-icon" data-animate="bounceIn" data-delay="400">
-									<a href="#"><i class="icon-medical-i-neurology"></i></a>
-								</div>
-								<div class="fbox-content">
-									<h3>Expert Consultation</h3>
-									<p>Canvas includes tons of optimized code that are completely customizable and deliver unmatched fast performance.</p>
-								</div>
-							</div>
-						</div>
-
-						<div class="col-sm-6 col-md-4">
-							<div class="feature-box fbox-plain">
-								<div class="fbox-icon" data-animate="bounceIn">
-									<a href="#"><i class="icon-medical-i-dental"></i></a>
-								</div>
-								<div class="fbox-content">
-									<h3>Dental Sciences</h3>
-									<p>Powerful Layout with Responsive functionality that can be adapted to any screen size. Resize browser to view.</p>
-								</div>
-							</div>
-						</div>
-
-						<div class="col-sm-6 col-md-4">
-							<div class="feature-box fbox-plain">
-								<div class="fbox-icon" data-animate="bounceIn" data-delay="200">
-									<a href="#"><i class="icon-medical-i-imaging-root-category"></i></a>
-								</div>
-								<div class="fbox-content">
-									<h3>X-Ray Services</h3>
-									<p>Looks beautiful &amp; ultra-sharp on Retina Screen Displays. Retina Icons, Fonts &amp; all others graphics are optimized.</p>
-								</div>
-							</div>
-						</div>
-
-						<div class="col-sm-6 col-md-4">
-							<div class="feature-box fbox-plain">
-								<div class="fbox-icon" data-animate="bounceIn" data-delay="400">
-									<a href="#"><i class="icon-medical-i-ambulance"></i></a>
-								</div>
-								<div class="fbox-content">
-									<h3>24x7 Emergency</h3>
-									<p>Canvas includes tons of optimized code that are completely customizable and deliver unmatched fast performance.</p>
-								</div>
-							</div>
-						</div>
-					</div>
-
-				</div>
-
-				<div class="section row p-0 align-items-stretch dark topmargin-sm">
-					<div class="col-lg-5" style="background: url('demos/medical/images/section-bg.jpg') center center no-repeat; background-size: cover; min-height: 250px;">
-						<div>&nbsp;</div>
-					</div>
-					<div id="booking-appointment-form" class="col-lg-7 p-0">
-						<div class="bg-color form-widget col-padding" data-loader="button">
-							<h2>Book an Appointment.</h2>
-							<div class="form-result"></div>
-							<form class="row mb-0" id="template-medical-form" name="template-medical-form" action="include/form.php" method="post">
-								<div class="form-process">
-									<div class="css3-spinner">
-										<div class="css3-spinner-scaler"></div>
-									</div>
-								</div>
-								<div class="col-md-8 form-group">
-									<label for="template-medical-name">Name:</label>
-									<input type="text" id="template-medical-name" name="template-medical-name" class="form-control not-dark required" value="">
-								</div>
-								<div class="col-md-4 form-group">
-									<label for="template-medical-phone">Phone:</label>
-									<input type="text" id="template-medical-phone" name="template-medical-phone" class="form-control not-dark required" value="">
-								</div>
-								<div class="w-100"></div>
-								<div class="col-md-8 form-group">
-									<label for="template-medical-email">Email Address:</label>
-									<input type="email" id="template-medical-email" name="template-medical-email" class="form-control not-dark required" value="">
-								</div>
-								<div class="col-md-4 form-group">
-									<label for="template-medical-dob">Date of Birth:</label>
-									<input type="text" id="template-medical-dob" name="template-medical-dob" class="form-control not-dark required" value="" placeholder="DD/MM/YYYY">
-								</div>
-								<div class="w-100"></div>
-								<div class="col-md-5">
-									<div class="row">
-										<div class="col-12 form-group">
-											<label for="template-medical-appoint-date">Appointment Date:</label>
-											<input type="text" id="template-medical-appoint-date" name="template-medical-appoint-date" class="form-control not-dark required" value="" placeholder="DD/MM/YYYY">
+							<div class="header-column justify-content-end">
+								<div class="header-row">
+									<div class="header-nav order-2 order-lg-1">
+										<div class="header-nav-main header-nav-main-square header-nav-main-effect-1 header-nav-main-sub-effect-1">
+											<nav class="collapse">
+												<ul class="nav nav-pills" id="mainNav">
+													<li class="dropdown-full-color dropdown-secondary">
+														<a class="nav-link active" href="demo-medical.html">
+															Home
+														</a>
+													</li>
+													<li class="dropdown-full-color dropdown-secondary">
+														<a class="nav-link" href="demo-medical-about-us.html">
+															About Us
+														</a>
+													</li>
+													<li class="dropdown dropdown-full-color dropdown-secondary">
+														<a class="nav-link dropdown-toggle" class="dropdown-toggle" href="demo-medical-departments.html">
+															Departments
+														</a>
+														<ul class="dropdown-menu">
+															<li><a class="dropdown-item" href="demo-medical-departments-detail.html">Cardiology</a></li>
+															<li><a class="dropdown-item" href="demo-medical-departments-detail.html">Gastroenterology</a></li>
+															<li><a class="dropdown-item" href="demo-medical-departments-detail.html">Pulmonology</a></li>
+															<li><a class="dropdown-item" href="demo-medical-departments-detail.html">Dental</a></li>
+															<li><a class="dropdown-item" href="demo-medical-departments-detail.html">Gynecology</a></li>
+															<li><a class="dropdown-item" href="demo-medical-departments-detail.html">Hepatology</a></li>
+														</ul>
+													</li>
+													<li class="dropdown-full-color dropdown-secondary">
+														<a class="nav-link" href="demo-medical-doctors.html">
+															Doctors
+														</a>
+													</li>
+													<li class="dropdown-full-color dropdown-secondary">
+														<a class="nav-link" href="demo-medical-resources.html">
+															Resources
+														</a>
+													</li>
+													<li class="dropdown-full-color dropdown-secondary">
+														<a class="nav-link" href="demo-medical-insurance.html">
+															Insurance
+														</a>
+													</li>
+													<li class="dropdown-full-color dropdown-secondary">
+														<a class="nav-link" href="demo-medical-contact.html">
+															Contact
+														</a>
+													</li>
+												</ul>
+											</nav>
 										</div>
-										<div class="col-12 form-group">
-											<label for="template-medical-second-booking">Booked with us Before?</label><br>
-											<label class="rightmargin-sm">
-												<input type="radio" id="template-medical-second-booking" name="template-medical-second-booking" value="yes">
-												Yes
-											</label>
-											<label>
-												<input type="radio" name="template-medical-second-booking" value="no" checked>
-												No
-											</label>
-										</div>
+										<button class="btn header-btn-collapse-nav" data-bs-toggle="collapse" data-bs-target=".header-nav-main nav">
+											<i class="fas fa-bars"></i>
+										</button>
 									</div>
 								</div>
-								<div class="col-md-7 form-group">
-									<label for="template-medical-message">Message:</label>
-									<textarea id="template-medical-message" name="template-medical-message" class="form-control not-dark required" cols="30" rows="5"></textarea>
-								</div>
-								<div class="w-100"></div>
-								<div class="col-12 form-group d-none">
-									<input type="text" name="template-medical-botcheck" value="" />
-								</div>
-								<div class="col-12 form-group text-end">
-									<button class="button button-white button-light button-rounded m-0" type="submit" value="submit">Confirm Booking</button>
-								</div>
-								<input type="hidden" name="prefix" value="template-medical-">
-							</form>
-
+							</div>
 						</div>
 					</div>
 				</div>
-
-				<div class="container clearfix">
-
-					<div class="row col-mb-50 mb-0">
-						<div class="col-md-7">
-							<div class="accordion accordion-lg clearfix">
-
-								<div class="accordion-header">
-									<div class="accordion-icon">
-										<i class="accordion-closed icon-ok-circle"></i>
-										<i class="accordion-open icon-remove-circle"></i>
-									</div>
-									<div class="accordion-title">
-										Kidney Transplant
-									</div>
-								</div>
-								<div class="accordion-content clearfix">Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</div>
-
-								<div class="accordion-header">
-									<div class="accordion-icon">
-										<i class="accordion-closed icon-ok-circle"></i>
-										<i class="accordion-open icon-remove-circle"></i>
-									</div>
-									<div class="accordion-title">
-										Pulmonary Treament
-									</div>
-								</div>
-								<div class="accordion-content clearfix">Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus. Aenean lacinia bibendum nulla sed consectetur. Cras mattis consectetur purus sit amet fermentum.</div>
-
-								<div class="accordion-header">
-									<div class="accordion-icon">
-										<i class="accordion-closed icon-ok-circle"></i>
-										<i class="accordion-open icon-remove-circle"></i>
-									</div>
-									<div class="accordion-title">
-										Eye Care &amp; Lasik Surgery
-									</div>
-								</div>
-								<div class="accordion-content clearfix">Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus. Aenean lacinia bibendum nulla sed consectetur.</div>
-
-								<div class="accordion-header">
-									<div class="accordion-icon">
-										<i class="accordion-closed icon-ok-circle"></i>
-										<i class="accordion-open icon-remove-circle"></i>
-									</div>
-									<div class="accordion-title">
-										Ear, Nose &amp; Throat
-									</div>
-								</div>
-								<div class="accordion-content clearfix">Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus. Aenean lacinia bibendum nulla sed consectetur.</div>
-
-								<div class="accordion-header">
-									<div class="accordion-icon">
-										<i class="accordion-closed icon-ok-circle"></i>
-										<i class="accordion-open icon-remove-circle"></i>
-									</div>
-									<div class="accordion-title">
-										Cardiology Department
-									</div>
-								</div>
-								<div class="accordion-content clearfix">Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus. Aenean lacinia bibendum nulla sed consectetur.</div>
-
-							</div>
-						</div>
-
-						<div class="col-md-5">
-							<h4>Patient Testimonials<span>.</span></h4>
-							<ul class="testimonials-grid grid-1">
-								<li class="grid-item pt-0">
-									<div class="testimonial">
-										<div class="testi-image">
-											<a href="#"><img src="images/testimonials/1.jpg" alt="Customer Testimonails"></a>
-										</div>
-										<div class="testi-content">
-											<p>Incidunt deleniti blanditiis quas aperiam recusandae consequatur ullam quibusdam cum libero illo rerum repellendus!</p>
-											<div class="testi-meta">
-												John Doe
-												<span>XYZ Inc.</span>
+			</header>
+			<div role="main" class="main">
+				<div class="owl-carousel owl-carousel-light owl-carousel-light-init-fadeIn owl-theme manual dots-inside dots-vertical-center dots-align-right dots-orientation-portrait custom-dots-style-1 show-dots-hover show-dots-xs nav-style-1 nav-inside nav-inside-plus nav-dark nav-lg nav-font-size-lg show-nav-hover mb-0" data-plugin-options="{'autoplayTimeout': 7000}" data-dynamic-height="['650px','650px','650px','550px','500px']" style="height: 650px;">
+					<div class="owl-stage-outer">
+						<div class="owl-stage">
+							<!-- Carousel Slide 1 -->
+							<div class="owl-item position-relative overlay overlay-show overlay-op-3" style="background-image: url(img/demos/medical/slides/slide-medical-1.jpg); background-size: cover; background-position: center;">
+								<div class="container position-relative z-index-3 h-100">
+									<div class="row align-items-center h-100">
+										<div class="col pb-4">
+											<h1 class="text-color-light font-weight-extra-bold text-13 line-height-2 mb-2 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="500" data-plugin-options="{'minWindowWidth': 0}">SPECIALISTS</h1>
+											<h2 class="text-color-light font-weight-extra-bold text-4-5 line-height-2 mb-3 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="750" data-plugin-options="{'minWindowWidth': 0}">20 YEARS CARING ABOUT YOU</h2>
+											<div class="d-inline-block">
+												<p class="text-color-light custom-border-bottom-1 font-weight-light text-4-5 mb-0 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1000" data-plugin-options="{'minWindowWidth': 0}">We are located in New York</p>
 											</div>
 										</div>
 									</div>
-								</li>
-								<li class="grid-item pb-0">
-									<div class="testimonial">
-										<div class="testi-image">
-											<a href="#"><img src="images/testimonials/2.jpg" alt="Customer Testimonails"></a>
-										</div>
-										<div class="testi-content">
-											<p>Natus voluptatum enim quod necessitatibus quis expedita harum provident eos obcaecati id culpa corporis molestias.</p>
-											<div class="testi-meta">
-												Collis Ta'eed
-												<span>Envato Inc.</span>
+								</div>
+							</div>
+							<!-- Carousel Slide 2 -->
+							<div class="owl-item position-relative overlay overlay-show overlay-op-3" style="background-image: url(img/demos/medical/slides/slide-medical-2.jpg); background-size: cover; background-position: center;">
+								<div class="container position-relative z-index-3 h-100">
+									<div class="row align-items-center h-100">
+										<div class="col pb-4">
+											<h1 class="text-color-light font-weight-extra-bold text-13 line-height-2 mb-2 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="500" data-plugin-options="{'minWindowWidth': 0}">MEDICAL APPOINTMENT</h1>
+											<h2 class="text-color-light font-weight-extra-bold text-4-5 line-height-2 mb-3 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="750" data-plugin-options="{'minWindowWidth': 0}">SCHEDULE A MEDICAL APPOINTMENT NOW</h2>
+											<div class="d-inline-block">
+												<p class="text-color-light custom-border-bottom-1 font-weight-light text-4-5 mb-0 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1000" data-plugin-options="{'minWindowWidth': 0}">Online or Over the Phone</p>
 											</div>
 										</div>
 									</div>
-								</li>
-							</ul>
-							<div class="w-100 text-end">
-								<a href="#" class="button button-mini button-rounded me-0">More Patient Feedbacks...</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="owl-dots mb-5">
+						<button role="button" class="owl-dot active"><span></span></button>
+						<button role="button" class="owl-dot"><span></span></button>
+					</div>
+				</div>
+				<section class="section-custom-medical">
+					<div class="container">
+						<div class="row medical-schedules">
+							<div class="col-xl-3 box-one bg-color-primary appear-animation" data-appear-animation="fadeInLeft" data-appear-animation-delay="0">
+								<div class="feature-box feature-box-style-2 align-items-center p-4">
+									<div class="feature-box-icon p-0">
+										<img src="img/demos/medical/icons/medical-icon-heart.png" alt class="img-fluid pt-1" />
+									</div>
+									<div class="feature-box-info">
+										<h4 class="m-0 p-0">Medical Treatment</h4>
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-3 box-two bg-color-tertiary appear-animation" data-appear-animation="fadeInLeft" data-appear-animation-delay="600">
+								<h5 class="m-0">
+									<a href="demo-medical-doctors.html" title="">
+										Doctors Timetable
+										<i class="icon-arrow-right-circle icons"></i>
+									</a>
+								</h5>
+							</div>
+							<div class="col-xl-3 box-three bg-color-primary appear-animation" data-appear-animation="fadeInLeft" data-appear-animation-delay="1200">
+								<div class="expanded-info p-4 bg-color-primary">
+									<div class="info custom-info">
+										<span>Mon-Fri</span>
+										<span>8:30 am to 5:00 pm</span>
+									</div>
+									<div class="info custom-info">
+										<span>Saturday</span>
+										<span>9:30 am to 1:00 pm</span>
+									</div>
+									<div class="info custom-info">
+										<span>Sunday</span>
+										<span>Closed</span>
+									</div>
+								</div>
+								<h5 class="m-0">
+									Opening Hours
+									<i class="icon-arrow-right-circle icons"></i>
+								</h5>
+							</div>
+							<div class="col-xl-3 box-four bg-color-secondary p-0 appear-animation" data-appear-animation="fadeInLeft" data-appear-animation-delay="1800">
+								<a href="tel:+008001234567" class="text-decoration-none">
+									<div class="feature-box feature-box-style-2 m-0">
+										<div class="feature-box-icon">
+											<i class="icon-call-out icons"></i>
+										</div>
+										<div class="feature-box-info">
+											<label class="font-weight-light">Emergency case</label>
+											<strong class="font-weight-normal">(800)123-4567</strong>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="row mt-5 mb-5 pt-3 pb-3">
+							<div class="col-md-8">
+								<h2 class="font-weight-semibold mb-0">About Us</h2>
+								<p class="lead font-weight-normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur hendrerit, leo vitae interdum pretium, tortor risus dapibus tortor, eu suscipit orci leo sed nisl. Integer et ipsum eu nulla auctor mattis sit amet in diam. Vestibulum non ornare arcu. Class aptent taciti sociosqu ad...</p>
+								<a class="btn btn-outline btn-quaternary custom-button text-uppercase mt-4 mb-4 mb-md-0 font-weight-bold">read more</a>
+							</div>
+							<div class="col-md-4">
+								<img src="img/demos/medical/gallery/gallery-1.jpg" alt class="img-fluid box-shadow-custom" /> 
 							</div>
 						</div>
 					</div>
-
-				</div>
-
-				<div class="section mt-0">
-					<div class="container clearfix">
-
+				</section>
+				<section class="section section-no-border">
+					<div class="container">
+						<div class="row pt-3">
+							<div class="col">
+								<h2 class="font-weight-semibold mb-0">Departments</h2>
+								<p class="lead font-weight-normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+							</div>
+						</div>
+						<div class="row mt-4">
+							<div class="col-lg-4">
+								<div class="feature-box feature-box-style-2 appear-animation" data-appear-animation="fadeInUp" data-appear-animation-delay="300">
+									<div class="feature-box-icon" style="min-width: 4.7rem;">
+										<img src="img/demos/medical/icons/department-icon-cardiology.png" alt class="img-fluid" />
+									</div>
+									<div class="feature-box-info">
+										<h4 class="font-weight-semibold"><a href="demo-medical-departments-detail.html" class="text-decoration-none">Cardiology</a></h4>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur hendrerit, leo vitae interdum...</p>
+									</div>	
+								</div>
+							</div>
+							<div class="col-lg-4">
+								<div class="feature-box feature-box-style-2 appear-animation" data-appear-animation="fadeInUp" data-appear-animation-delay="300">
+									<div class="feature-box-icon" style="min-width: 4.7rem;">
+										<img src="img/demos/medical/icons/department-icon-gastroenterology.png" alt class="img-fluid" />
+									</div>
+									<div class="feature-box-info">
+										<h4 class="font-weight-semibold"><a href="demo-medical-departments-detail.html" class="text-decoration-none">Gastroenterology</a></h4>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur hendrerit, leo vitae interdum...</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4">
+								<div class="feature-box feature-box-style-2 appear-animation" data-appear-animation="fadeInUp" data-appear-animation-delay="300">
+									<div class="feature-box-icon" style="min-width: 4.7rem;">
+										<img src="img/demos/medical/icons/department-icon-pulmonology.png" alt class="img-fluid" />
+									</div>
+									<div class="feature-box-info">
+										<h4 class="font-weight-semibold"><a href="demo-medical-departments-detail.html" class="text-decoration-none">Pulmonology</a></h4>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur hendrerit, leo vitae interdum...</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row mt-lg-4">
+							<div class="col-lg-4">
+								<div class="feature-box feature-box-style-2 appear-animation" data-appear-animation="fadeInUp" data-appear-animation-delay="300">
+									<div class="feature-box-icon" style="min-width: 4.7rem;">
+										<img src="img/demos/medical/icons/department-icon-dental.png" alt class="img-fluid" />
+									</div>
+									<div class="feature-box-info">
+										<h4 class="font-weight-semibold"><a href="demo-medical-departments-detail.html" class="text-decoration-none">Dental</a></h4>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur hendrerit, leo vitae interdum...</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4">
+								<div class="feature-box feature-box-style-2 appear-animation" data-appear-animation="fadeInUp" data-appear-animation-delay="300">
+									<div class="feature-box-icon" style="min-width: 4.7rem;">
+										<img src="img/demos/medical/icons/department-icon-gynecology.png" alt class="img-fluid" />
+									</div>
+									<div class="feature-box-info">
+										<h4 class="font-weight-semibold"><a href="demo-medical-departments-detail.html" class="text-decoration-none">Gynecology</a></h4>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur hendrerit, leo vitae interdum...</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4">
+								<div class="feature-box feature-box-style-2 appear-animation" data-appear-animation="fadeInUp" data-appear-animation-delay="300">
+									<div class="feature-box-icon" style="min-width: 4.7rem;">
+										<img src="img/demos/medical/icons/department-icon-hepatology.png" alt class="img-fluid" />
+									</div>
+									<div class="feature-box-info">
+										<h4 class="font-weight-semibold"><a href="demo-medical-departments-detail.html" class="text-decoration-none">Hepatology</a></h4>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur hendrerit, leo vitae interdum...</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row mt-2 pb-4">
+							<div class="col-lg-12 text-center">
+								<a class="btn btn-outline btn-quaternary custom-button text-uppercase mt-4 font-weight-bold" href="demo-medical-departments.html">view more</a>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="team pb-2">
+					<div class="container">
+						<div class="row pt-4">
+							<div class="col">
+								<h2 class="font-weight-semibold mb-0">Doctors</h2>
+								<p class="lead font-weight-normal">Our Specialists</p>
+								<div id="porfolioAjaxBoxMedical" class="ajax-box ajax-box-init mb-4">
+									<div class="bounce-loader">
+										<div class="bounce1"></div>
+										<div class="bounce2"></div>
+										<div class="bounce3"></div>
+									</div>
+									<div class="ajax-box-content" id="porfolioAjaxBoxContentMedical"></div>
+								</div>
+							</div>
+						</div>
+						<div class="row pb-4">
+							<div class="owl-carousel owl-theme nav-bottom rounded-nav show-nav-title ps-1 pe-1" data-plugin-options="{'items': 4, 'loop': false, 'dots': false, 'nav': true}">
+								<div class="pe-3 ps-3">
+									<a href="#" data-href="demo-medical-doctors-detail.html" data-ajax-on-page class="text-decoration-none">
+										<span class="thumb-info thumb-info-no-zoom thumb-info-hide-wrapper-bg">
+											<span class="thumb-info-wrapper m-0">
+												<img src="img/demos/medical/doctors/doctor-1.jpg" class="img-fluid" alt="">
+											</span>
+											<span class="thumb-info-caption p-4">
+												<span class="custom-thumb-info-title">
+													<span class="custom-thumb-info-type font-weight-light text-4">Cardiology</span>
+													<span class="custom-thumb-info-inner font-weight-semibold text-5">John Doe</span>
+													<i class="icon-arrow-right-circle icons font-weight-semibold text-5 "></i>
+												</span>
+											</span>
+										</span>
+									</a>
+								</div>
+								<div class="pe-3 ps-3">
+									<a href="#" data-href="demo-medical-doctors-detail.html" data-ajax-on-page class="text-decoration-none">
+										<span class="thumb-info thumb-info-no-zoom thumb-info-hide-wrapper-bg">
+											<span class="thumb-info-wrapper m-0">
+												<img src="img/demos/medical/doctors/doctor-2.jpg" class="img-fluid" alt="">
+											</span>
+											<span class="thumb-info-caption p-4">
+												<span class="custom-thumb-info-title">
+													<span class="custom-thumb-info-type font-weight-light text-4">Gastroenterology</span>
+													<span class="custom-thumb-info-inner font-weight-semibold text-5">Robin Doe</span>
+													<i class="icon-arrow-right-circle icons font-weight-semibold text-5 "></i>
+												</span>
+											</span>
+										</span>
+									</a>
+								</div>
+								<div class="pe-3 ps-3">
+									<a href="#" data-href="demo-medical-doctors-detail.html" data-ajax-on-page class="text-decoration-none">
+										<span class="thumb-info thumb-info-no-zoom thumb-info-hide-wrapper-bg">
+											<span class="thumb-info-wrapper m-0">
+												<img src="img/demos/medical/doctors/doctor-3.jpg" class="img-fluid" alt="">
+											</span>
+											<span class="thumb-info-caption p-4">
+												<span class="custom-thumb-info-title">
+													<span class="custom-thumb-info-type font-weight-light text-4">Pulmonology</span>
+													<span class="custom-thumb-info-inner font-weight-semibold text-5">Jessica Doe</span>
+													<i class="icon-arrow-right-circle icons font-weight-semibold text-5 "></i>
+												</span>
+											</span>
+										</span>
+									</a>
+								</div>
+								<div class="pe-3 ps-3">
+									<a href="#" data-href="demo-medical-doctors-detail.html" data-ajax-on-page class="text-decoration-none">
+										<span class="thumb-info thumb-info-no-zoom thumb-info-hide-wrapper-bg">
+											<span class="thumb-info-wrapper m-0">
+												<img src="img/demos/medical/doctors/doctor-4.jpg" class="img-fluid" alt="">
+											</span>
+											<span class="thumb-info-caption p-4">
+												<span class="custom-thumb-info-title">
+													<span class="custom-thumb-info-type font-weight-light text-4">Dental</span>
+													<span class="custom-thumb-info-inner font-weight-semibold text-5">Rose Doe</span>
+													<i class="icon-arrow-right-circle icons font-weight-semibold text-5 "></i>
+												</span>
+											</span>
+										</span>
+									</a>
+								</div>
+								<div class="pe-3 ps-3">
+									<a href="#" data-href="demo-medical-doctors-detail.html" data-ajax-on-page class="text-decoration-none">
+										<span class="thumb-info thumb-info-no-zoom thumb-info-hide-wrapper-bg">
+											<span class="thumb-info-wrapper m-0">
+												<img src="img/demos/medical/doctors/doctor-5.jpg" class="img-fluid" alt="">
+											</span>
+											<span class="thumb-info-caption p-4">
+												<span class="custom-thumb-info-title">
+													<span class="custom-thumb-info-type font-weight-light text-4">Gynecology</span>
+													<span class="custom-thumb-info-inner font-weight-semibold text-5">Mary Ann Doe</span>
+													<i class="icon-arrow-right-circle icons font-weight-semibold text-5 "></i>
+												</span>
+											</span>
+										</span>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="section">
+					<div class="container">
+						<div class="row pt-3">
+							<div class="col">
+								<h2 class="font-weight-semibold mb-0">Resources</h2>
+								<p class="lead font-weight-normal">List of our features resources</p>
+							</div>
+						</div>
 						<div class="row">
-							<div class="col-lg-3 col-md-6">
-								<div class="feature-box fbox-outline fbox-dark fbox-effect clearfix">
-									<div class="fbox-icon">
-										<a href="#"><i class="icon-stack i-alt"></i></a>
-									</div>
-									<div class="fbox-content">
-										<div class="counter counter-small"><span data-from="100" data-to="23331" data-refresh-interval="200" data-speed="2500"></span>+</div>
-										<h5 class="m-0 color">Clients Served</h5>
-										<div class="d-block d-md-block d-lg-none bottommargin"></div>
-									</div>
-								</div>
+							<div class="col-md-4">
+								<a href="demo-medical-resources-detail.html" class="text-decoration-none">
+									<span class="thumb-info thumb-info-side-image thumb-info-side-image-custom thumb-info-no-zoom thumb-info-no-zoom thumb-info-side-image-custom-highlight d-block">
+										<span class="thumb-info-side-image-wrapper">
+											<img alt="" class="img-fluid" src="img/demos/medical/gallery/gallery-2.jpg">
+										</span>
+										<span class="thumb-info-caption px-4 pb-3">
+											<span class="thumb-info-caption-text p-xl">
+												<h4 class="font-weight-semibold mb-1">Prepare for visit</h4>
+												<p class="text-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur hend...</p>
+											</span>
+										</span>
+									</span>
+								</a>
 							</div>
-
-							<div class="col-lg-3 col-md-6">
-								<div class="feature-box fbox-outline fbox-dark fbox-effect clearfix">
-									<div class="fbox-icon">
-										<a href="#"><i class="icon-tint i-alt"></i></a>
-									</div>
-									<div class="fbox-content">
-										<div class="counter counter-small"><span data-from="100" data-to="56841" data-refresh-interval="250" data-speed="2000"></span>+</div>
-										<h5 class="m-0 color">X-Rays Done</h5>
-										<div class="d-block d-md-block d-lg-none bottommargin"></div>
-									</div>
-								</div>
+							<div class="col-md-4">
+								<a href="demo-medical-resources-detail.html" class="text-decoration-none">
+									<span class="thumb-info thumb-info-side-image thumb-info-side-image-custom thumb-info-no-zoom thumb-info-no-zoom thumb-info-side-image-custom-highlight d-block">
+										<span class="thumb-info-side-image-wrapper">
+											<img alt="" class="img-fluid" src="img/demos/medical/gallery/gallery-3.jpg">
+										</span>
+										<span class="thumb-info-caption px-4 pb-3">
+											<span class="thumb-info-caption-text p-xl">
+												<h4 class="font-weight-semibold mb-1">Surgery proccess</h4>
+												<p class="text-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur hend...</p>
+											</span>
+										</span>
+									</span>
+								</a>
 							</div>
-
-							<div class="col-lg-3 col-md-6">
-								<div class="feature-box fbox-outline fbox-dark fbox-effect clearfix">
-									<div class="fbox-icon">
-										<a href="#"><i class="icon-tint i-alt"></i></a>
-									</div>
-									<div class="fbox-content">
-										<div class="counter counter-small"><span data-from="100" data-to="332" data-refresh-interval="50" data-speed="3000"></span>+</div>
-										<h5 class="m-0 color">Worldwide Staff</h5>
-										<div class="d-block d-md-none bottommargin"></div>
-									</div>
-								</div>
-							</div>
-
-							<div class="col-lg-3 col-md-6">
-								<div class="feature-box fbox-outline fbox-dark fbox-effect clearfix">
-									<div class="fbox-icon">
-										<a href="#"><i class="icon-text-width i-alt"></i></a>
-									</div>
-									<div class="fbox-content">
-										<div class="counter counter-small"><span data-from="100" data-to="2213" data-refresh-interval="110" data-speed="3500"></span>+</div>
-										<h5 class="m-0 color">Lives Saved</h5>
-									</div>
-								</div>
+							<div class="col-md-4">
+								<a href="demo-medical-resources-detail.html" class="text-decoration-none">
+									<span class="thumb-info thumb-info-side-image thumb-info-side-image-custom thumb-info-no-zoom thumb-info-no-zoom thumb-info-side-image-custom-highlight d-block">
+										<span class="thumb-info-side-image-wrapper">
+											<img alt="" class="img-fluid" src="img/demos/medical/gallery/gallery-4.jpg">
+										</span>
+										<span class="thumb-info-caption px-4 pb-3">
+											<span class="thumb-info-caption-text p-xl">
+												<h4 class="font-weight-semibold mb-1">Patients</h4>
+												<p class="text-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur hend...</p>
+											</span>
+										</span>
+									</span>
+								</a>
 							</div>
 						</div>
-
+						<div class="row pb-4">
+							<div class="col-lg-12 text-center">
+								<a class="btn btn-outline btn-quaternary custom-button text-uppercase font-weight-bold">view more</a>
+							</div>
+						</div>
 					</div>
-				</div>
-
-				<div class="container clearfix">
-					<div class="heading-block center border-bottom-0">
-						<h3>Meet our Team of Specialists<span>.</span></h3>
-						<span>We make sure that your Life are in Good Hands.</span>
-					</div>
-
-					<div id="oc-team" class="owl-carousel team-carousel carousel-widget" data-margin="30" data-nav="true" data-pagi="true" data-items-xs="1" data-items-sm="2" data-items-lg="3" data-items-xl="4">
-
-						<div class="team">
-							<div class="team-image">
-								<img src="demos/medical/images/doctors/1.jpg" alt="Dr. John Doe">
-							</div>
-							<div class="team-desc">
-								<div class="team-title"><h4>Dr. John Doe</h4><span>Cardiologist</span></div>
+				</section>
+				<section>
+					<div class="container">
+						<div class="row pt-4">
+							<div class="col">
+								<h2 class="font-weight-semibold mb-0">Insurance</h2>
+								<p class="lead font-weight-normal">Major insurance providers accepted</p>
 							</div>
 						</div>
-
-						<div class="team">
-							<div class="team-image">
-								<img src="demos/medical/images/doctors/2.jpg" alt="Dr. John Doe">
-							</div>
-							<div class="team-desc">
-								<div class="team-title"><h4>Dr. Bryan Mcguire</h4><span>Orthopedist</span></div>
-							</div>
-						</div>
-
-						<div class="team">
-							<div class="team-image">
-								<img src="demos/medical/images/doctors/3.jpg" alt="Dr. John Doe">
-							</div>
-							<div class="team-desc">
-								<div class="team-title"><h4>Dr. Mary Jane</h4><span>Neurologist</span></div>
-							</div>
-						</div>
-
-						<div class="team">
-							<div class="team-image">
-								<img src="demos/medical/images/doctors/4.jpg" alt="Dr. John Doe">
-							</div>
-							<div class="team-desc">
-								<div class="team-title"><h4>Dr. Silvia Bush</h4><span>Dentist</span></div>
-							</div>
-						</div>
-
-						<div class="team">
-							<div class="team-image">
-								<img src="demos/medical/images/doctors/6.jpg" alt="Dr. John Doe">
-							</div>
-							<div class="team-desc">
-								<div class="team-title"><h4>Dr. Hugh Baldwin</h4><span>Cardiologist</span></div>
-							</div>
-						</div>
-
-						<div class="team">
-							<div class="team-image">
-								<img src="demos/medical/images/doctors/7.jpg" alt="Dr. John Doe">
-							</div>
-							<div class="team-desc">
-								<div class="team-title"><h4>Dr. Erika Todd</h4><span>Neurologist</span></div>
-							</div>
-						</div>
-
-						<div class="team">
-							<div class="team-image">
-								<img src="demos/medical/images/doctors/8.jpg" alt="Dr. John Doe">
-							</div>
-							<div class="team-desc">
-								<div class="team-title"><h4>Dr. Randy Adams</h4><span>Dentist</span></div>
-							</div>
-						</div>
-
-						<div class="team">
-							<div class="team-image">
-								<img src="demos/medical/images/doctors/9.jpg" alt="Dr. John Doe">
-							</div>
-							<div class="team-desc">
-								<div class="team-title"><h4>Dr. Alan Freeman</h4><span>Eye Specialist</span></div>
-							</div>
-						</div>
-
-					</div>
-
-				</div>
-			</div>
-		</section><!-- #content end -->
-
-		<!-- Footer
-		============================================= -->
-		<footer id="footer" style="background-color: #F5F5F5; border-top: 2px solid rgba(0,0,0,0.06);">
-			<div class="container" style="border-bottom: 1px solid rgba(0,0,0,0.06);">
-
-				<!-- Footer Widgets
-				============================================= -->
-				<div class="footer-widgets-wrap">
-
-					<div class="row gutter-50 col-mb-50">
-						<div class="col-md-8">
-
-							<div class="widget clearfix">
-
-								<div class="widget-subscribe-form-result"></div>
-								<form id="widget-subscribe-form" action="include/subscribe.php" method="post" class="mb-0 row clearfix">
-									<div class="col-lg-9">
-										<input type="email" id="widget-subscribe-form-email" name="widget-subscribe-form-email" class="sm-form-control required email" placeholder="Enter your Email to Subscribe to our Newsletter">
-									</div>
-									<div class="col-lg-3">
-										<button class="button button-rounded m-0 center w-100" type="submit">Subscribe</button>
-									</div>
-								</form>
-
-								<div class="line line-sm"></div>
-
-								<div class="row col-mb-30">
-									<div class="col-lg-3 col-6 widget_links">
-										<ul>
-											<li><a href="#">Home</a></li>
-											<li><a href="#">About</a></li>
-											<li><a href="#">FAQs</a></li>
-											<li><a href="#">Support</a></li>
-											<li><a href="#">Contact</a></li>
-										</ul>
-									</div>
-
-									<div class="col-lg-3 col-6 widget_links">
-										<ul>
-											<li><a href="#">Shop</a></li>
-											<li><a href="#">Portfolio</a></li>
-											<li><a href="#">Blog</a></li>
-											<li><a href="#">Events</a></li>
-											<li><a href="#">Forums</a></li>
-										</ul>
-									</div>
-
-									<div class="col-lg-3 col-6 widget_links">
-										<ul>
-											<li><a href="#">Corporate</a></li>
-											<li><a href="#">Agency</a></li>
-											<li><a href="#">eCommerce</a></li>
-											<li><a href="#">Personal</a></li>
-											<li><a href="#">One Page</a></li>
-										</ul>
-									</div>
-
-									<div class="col-lg-3 col-6 widget_links">
-										<ul>
-											<li><a href="#">Restaurant</a></li>
-											<li><a href="#">Wedding</a></li>
-											<li><a href="#">App Showcase</a></li>
-											<li><a href="#">Magazine</a></li>
-											<li><a href="#">Landing Page</a></li>
-										</ul>
-									</div>
-								</div>
-
-							</div>
-
-						</div>
-
-						<div class="col-md-4">
-
-							<div class="widget">
-
-								<div class="row col-mb-30">
-									<div class="col-lg-12">
-										<div class="footer-big-contacts">
-											<span>Call Us:</span>
-											(1) 22 55412474
+						<div class="row mb-5 pb-4">
+							<div class="col">
+								<div class="content-grid">
+									<div class="row content-grid-row ps-3 pe-3">
+										<div class="content-grid-item col-md-4 col-lg-2 text-center">
+											<img src="img/demos/medical/logos/insurance-logo-1.png" alt class="img-fluid" />
 										</div>
-									</div>
-
-									<div class="col-lg-12">
-										<div class="footer-big-contacts">
-											<span>Send an Email:</span>
-											info@canvas.com
+										<div class="content-grid-item col-md-4 col-lg-2 text-center">
+											<img src="img/demos/medical/logos/insurance-logo-2.png" alt class="img-fluid" />
+										</div>
+										<div class="content-grid-item col-md-4 col-lg-2 text-center">
+											<img src="img/demos/medical/logos/insurance-logo-3.png" alt class="img-fluid" />
+										</div>
+										<div class="content-grid-item col-md-4 col-lg-2 text-center">
+											<img src="img/demos/medical/logos/insurance-logo-4.png" alt class="img-fluid" />
+										</div>
+										<div class="content-grid-item col-md-4 col-lg-2 text-center">
+											<img src="img/demos/medical/logos/insurance-logo-5.png" alt class="img-fluid" />
+										</div>
+										<div class="content-grid-item col-md-4 col-lg-2 text-center">
+											<img src="img/demos/medical/logos/insurance-logo-6.png" alt class="img-fluid" />
 										</div>
 									</div>
 								</div>
-
 							</div>
-
-							<div class="widget subscribe-widget clearfix">
-
-								<div class="row col-mb-30">
-									<div class="col-sm-6 col-md-12 col-lg-6 clearfix">
-										<a href="#" class="social-icon si-dark si-colored si-facebook mb-0" style="margin-right: 10px;">
-											<i class="icon-facebook"></i>
-											<i class="icon-facebook"></i>
-										</a>
-										<a href="#"><small style="display: block; margin-top: 3px;"><strong>Like us</strong><br>on Facebook</small></a>
-									</div>
-									<div class="col-sm-6 col-md-12 col-lg-6 clearfix">
-										<a href="#" class="social-icon si-dark si-colored si-rss mb-0" style="margin-right: 10px;">
-											<i class="icon-rss"></i>
-											<i class="icon-rss"></i>
-										</a>
-										<a href="#"><small style="display: block; margin-top: 3px;"><strong>Subscribe</strong><br>to RSS Feeds</small></a>
+						</div>
+					</div>
+				</section>
+				<section class="section-secondary">
+					<div class="container">
+						<div class="row pt-5 pb-5">
+							<div class="owl-carousel owl-theme nav-bottom rounded-nav" data-plugin-options="{'items': 1, 'loop': false, 'dots': false}">
+								<div class="row justify-content-center">
+									<div class="col-lg-8 pt-4 mt-3">
+										<div class="testimonial testimonial-style-2 testimonial-with-quotes mb-0">
+											<div class="testimonial-quote">“</div>
+											<blockquote>
+												<p class="font-weight-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur hendrerit, leo vitae interdum pretium, tortor risus dapibus tortor, eu suscipit orci leo sed nisl. Integer et ipsum eu nulla auctor mattis sit amet in diam. Vestibulum non.</p>
+											</blockquote>
+											<div class="testimonial-author">
+												<p class="text-uppercase">
+													<strong>John Smith</strong>
+												</p>
+											</div>
+										</div>
 									</div>
 								</div>
-
-							</div>
-
-						</div>
-					</div>
-
-				</div><!-- .footer-widgets-wrap end -->
-			</div>
-
-			<!-- Copyrights
-			============================================= -->
-			<div id="copyrights" class="bg-transparent">
-				<div class="container clearfix">
-
-					<div class="row col-mb-30">
-						<div class="col-md-6 text-center text-md-start">
-							Copyrights &copy; 2020 All Rights Reserved by Canvas Inc.<br>
-							<div class="copyright-links"><a href="#">Terms of Use</a> / <a href="#">Privacy Policy</a></div>
-						</div>
-
-						<div class="col-md-6 text-center text-md-end">
-							<div class="copyrights-menu copyright-links clearfix">
-								<a href="#">Home</a>/<a href="#">About Us</a>/<a href="#">Team</a>/<a href="#">Clients</a>/<a href="#">FAQs</a>/<a href="#">Contact</a>
+								<div class="row justify-content-center">
+									<div class="col-lg-8 pt-4 mt-3">
+										<div class="testimonial testimonial-style-2 testimonial-with-quotes mb-0">
+											<div class="testimonial-quote">“</div>
+											<blockquote>
+												<p class="font-weight-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur hendrerit, leo vitae interdum pretium, tortor risus dapibus tortor, eu suscipit orci leo sed nisl. Integer et ipsum eu nulla auctor mattis sit amet in diam. Vestibulum non.</p>
+											</blockquote>
+											<div class="testimonial-author">
+												<p class="text-uppercase">
+													<strong>John Smith</strong>
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
 							</div>
 						</div>
 					</div>
-
+				</section>
+			</div>
+			<footer id="footer" class="m-0">
+				<div class="container">
+					<div class="row pt-5 pb-4">
+						<div class="col-md-4 col-lg-3 mb-2">
+							<h4 class="mb-4">Location</h4>
+							<p>
+								Porto Medical<br>
+								123 Porto Blvd, Suite 100<br>
+								New York, NY<br>
+								Phone : 123-456-7890
+							</p>
+						</div>
+						<div class="col-md-4 col-lg-3">
+							<h4 class="mb-4">Opening Hours</h4>
+							<div class="info custom-info">
+								<span>Mon-Fri</span>
+								<span>8:30 am to 5:00 pm</span>
+							</div>
+							<div class="info custom-info">
+								<span>Saturday</span>
+								<span>9:30 am to 1:00 pm</span>
+							</div>
+							<div class="info custom-info">
+								<span>Sunday</span>
+								<span>Closed</span>
+							</div>
+						</div>
+						<div class="col-md-4 col-lg-3">
+							<div class="contact-details">
+								<h4 class="mb-4">Emergency Cases</h4>
+								<a class="text-decoration-none" href="tel:1234567890">
+									<strong class="font-weight-light">(800)123-4567</strong>
+								</a>
+							</div>
+						</div>
+						<div class="col-lg-2 text-md-center text-lg-start ms-lg-auto">
+							<h4 class="mb-4">Social Media</h4>
+							<ul class="social-icons">
+								<li class="social-icons-facebook">
+									<a href="http://www.facebook.com/" target="_blank" title="Facebook">
+										<i class="fab fa-facebook-f"></i>
+									</a>
+								</li>
+								<li class="social-icons-twitter">
+									<a href="http://www.twitter.com/" target="_blank" title="Twitter">
+										<i class="fab fa-twitter"></i>
+									</a>
+								</li>
+								<li class="social-icons-linkedin">
+									<a href="http://www.linkedin.com/" target="_blank" title="Linkedin">
+										<i class="fab fa-linkedin-in"></i>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
 				</div>
-			</div><!-- #copyrights end -->
-		</footer><!-- #footer end -->
+				<div class="footer-copyright pt-3 pb-3">
+					<div class="container">
+						<div class="row">
+							<div class="col-lg-12 text-center m-0">
+								<p>© Copyright 2021. All Rights Reserved.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer>
+		</div>
 
-	</div><!-- #wrapper end -->
+		<!-- Vendor -->		<script src="vendor/jquery/jquery.min.js"></script>		<script src="vendor/jquery.appear/jquery.appear.min.js"></script>		<script src="vendor/jquery.easing/jquery.easing.min.js"></script>		<script src="vendor/jquery.cookie/jquery.cookie.min.js"></script>		<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>		<script src="vendor/jquery.validation/jquery.validate.min.js"></script>		<script src="vendor/jquery.easy-pie-chart/jquery.easypiechart.min.js"></script>		<script src="vendor/jquery.gmap/jquery.gmap.min.js"></script>		<script src="vendor/lazysizes/lazysizes.min.js"></script>		<script src="vendor/isotope/jquery.isotope.min.js"></script>		<script src="vendor/owl.carousel/owl.carousel.min.js"></script>		<script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>		<script src="vendor/vide/jquery.vide.min.js"></script>		<script src="vendor/vivus/vivus.min.js"></script>
+		<!-- Theme Base, Components and Settings -->
+		<script src="js/theme.js"></script>
 
-	<!-- Go To Top
-	============================================= -->
-	<div id="gotoTop" class="icon-angle-up rounded-circle"></div>
+		<!-- Current Page Vendor and Views -->
+		<script src="js/views/view.contact.js"></script>
+		<!-- Demo -->
+		<script src="js/demos/demo-medical.js"></script>
 
-	<!-- JavaScripts
-	============================================= -->
-	<script src="js/jquery.js"></script>
-	<script src="js/plugins.min.js"></script>
+		<!-- Theme Custom -->		<script src="js/custom.js"></script>
+		<!-- Theme Initialization Files -->
+		<script src="js/theme.init.js"></script>
 
-	<!-- Footer Scripts
-	============================================= -->
-	<script src="js/functions.js"></script>
-
-</body>
+	</body>
 </html>
