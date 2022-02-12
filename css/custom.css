@@ -7,11 +7,18 @@ img {
 }
 
 .counter {
-    font-size: 2vh !important;
+    font-size: 2.1vh !important;
     font-weight: bold;
 }
 
-.circle-2 {
-    margin-bottom: 10px !important;
+#footer-cont {
+    margin-bottom: 0;
 }
 
+.box-shadow-1:before {
+    content:initial;
+}
+
+#fee-struct {
+    margin-bottom: 0;
+}
