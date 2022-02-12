@@ -5,3 +5,13 @@
 img {
     border-radius: .4rem;
 }
+
+.counter {
+    font-size: 2vh !important;
+    font-weight: bold;
+}
+
+.circle-2 {
+    margin-bottom: 10px !important;
+}
+
