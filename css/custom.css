@@ -22,3 +22,10 @@ img {
 #fee-struct {
     margin-bottom: 0;
 }
+
+.process-step {
+    position: static !important;
+    height: min-content;
+    margin-bottom: 12px;    
+    padding: 20px !important;
+}
