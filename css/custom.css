@@ -38,3 +38,17 @@ img {
     opacity: .5;
 }
 
+.irPoints p, .irPoints h2 {
+    text-align: left;
+    padding-left: 1rem;
+}
+
+.irPoints {
+    margin-top: 1rem;
+}
+
+iframe {
+    margin-left: 7.5%;
+    margin-bottom: 7rem;
+}
+
