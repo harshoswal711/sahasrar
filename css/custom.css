@@ -47,9 +47,13 @@ img {
     margin-top: 1rem;
 }
 
+.pdf-section {
+    position: sticky;
+}
+
 iframe {
-    margin-left: 7.5%;
+    display:block;
+    margin: 0 auto;
     margin-bottom: 7rem;
-    padding: 0;
 }
 
