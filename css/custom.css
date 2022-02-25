@@ -57,7 +57,6 @@ img {
 
 iframe {
     display:block;
-    margin: 0 auto;
     margin-bottom: 7rem;
 }
 
@@ -71,3 +70,6 @@ iframe {
     margin: 1.75rem 0;
 }
 
+.main-content {
+    display: flex;
+}
