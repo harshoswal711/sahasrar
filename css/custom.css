@@ -38,13 +38,17 @@ img {
     opacity: .5;
 }
 
+.irPoints {
+    margin-top: 1rem;
+}
+
 .irPoints p, .irPoints h2 {
     text-align: left;
     padding-left: 1rem;
 }
 
-.irPoints {
-    margin-top: 1rem;
+.irPoints p {
+    margin: .4rem;
 }
 
 .pdf-section {
@@ -62,3 +66,8 @@ iframe {
     display: flexbox;
     margin: 0 auto;
 }
+
+.vid-sec {
+    margin: 1.75rem 0;
+}
+
